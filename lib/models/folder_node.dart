@@ -1,6 +1,6 @@
 // models/folder_node.dart
 class FolderNode {
-  final String name;
+  String name; // final 제거
   final List<FolderNode> children; // final을 유지
 
   // **반드시 이 형태로 되어야 합니다.**
